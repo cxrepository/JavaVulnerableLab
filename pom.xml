@@ -4,6 +4,13 @@
   <groupId>org.cysecurity</groupId>
   <artifactId>JavaVulnerableLab</artifactId>
   <packaging>war</packaging>
+	<distributionManagement>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>39d563a45cd0-snapshots</name>
+		<url>http://localhost:10123/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
+	</distributionManagement>	
   <version>0.0.1-SNAPSHOT</version>
   <name>JavaVulnerableLab Maven Webapp</name>
   <url>http://maven.apache.org</url>
